@@ -1,0 +1,9 @@
+string str;
+vector<string> s;
+while(getline(cin, str)){
+  if (str.empty()){
+    break;
+  }
+  s.push_back(str);
+}
+for (auto x:s) cout << x << "\n";
