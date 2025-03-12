@@ -1,0 +1,3 @@
+## Solution
+Đếm xâu con của một chuỗi với đầu cuối giống :
+(f * (f + 1)) / 2
