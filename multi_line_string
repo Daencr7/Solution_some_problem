@@ -7,3 +7,14 @@ while(getline(cin, str)){
   s.push_back(str);
 }
 for (auto x:s) cout << x << "\n";
+
+
+- Trường hợp khác:
+Tách theo nhiều kí tự:
+```
+input:
+asdasd.....sadasdas
+Trường hợp như này thì
+while(getline(cin,words,'.') -> như này ghi nó duyệt đến dấu . 
+thì nó bỏ qua mà khoảng rỗng giữa 2 dấu chấm là một ô rỗng nên nó sẽ đọc nó ra. 
+Khi đó muốn loại bỏ ô rỗng như thế thì cần phải check thêm điều kiện ô đó khác rỗng nữa.
