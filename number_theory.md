@@ -12,3 +12,7 @@
 # Số chia hết cho 25:
 - Số có 2 chữ số cuối cùng là 00
 - Hoặc 2 chữ số cuối cùng chia hết cho 25;
+
+# Chia số nguyên lớn M cho N
+- Duyệt từng chữ số của N từ trái qua , r ban đầu = ; sau đó
+`r = r*10 + số đó`; sau đó r = r%n là xong. Số cuối cùng là `r`
