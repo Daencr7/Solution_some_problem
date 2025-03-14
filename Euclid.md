@@ -5,3 +5,5 @@
 # Cải tiến
 - Ta cải tiến thuật toán Euclid bằng nhận xét sau :  UCLN của hai số nguyên không thay đổi khi thay 1 trong 2 số thành số dư của nó với số còn lại. Có nghĩa là UCLN(a, b) = UCLN(b, a % b)
 - Quá trình thay thế này được lặp đi lặp lại cho tới khi 1 trong 2 số bằng 0, khi đó UCLN chính là số còn lại
+# Tính ước chung lớn nhất của một số nguyên lớn và số 64bit.
+-  Dùng thuật toán Euclid để tìm số dư của N với M, khi đó số dư sẽ là số 64 bit => áp dụng UCLN với M cùng số dư đó sẽ trở về bài toán bình thường.
