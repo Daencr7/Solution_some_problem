@@ -16,3 +16,8 @@
 # Chia số nguyên lớn M cho N
 - Duyệt từng chữ số của N từ trái qua , r ban đầu = ; sau đó
 `r = r*10 + số đó`; sau đó r = r%n là xong. Số cuối cùng là `r`
+Cho số nguyên dương N là số nguyên lớn. Hãy tìm chữ số cuối cùng của 2008^n.
+
+Hay nói cách khác đề bài yêu cầu bạn tìm 2008^n % 10.
+
+Gợi ý : 2008^n % 10 = (2008 % 10) ^ n % 10 = 8 ^ n % 10. Mà 8 là lũy thừa của 2, vì thế chữ số cuối cùng cùng của 8^n cũng sẽ tuần hoàn với chu kỳ 4.
