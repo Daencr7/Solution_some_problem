@@ -21,3 +21,4 @@ Cho số nguyên dương N là số nguyên lớn. Hãy tìm chữ số cuối c
 Hay nói cách khác đề bài yêu cầu bạn tìm 2008^n % 10.
 
 Gợi ý : 2008^n % 10 = (2008 % 10) ^ n % 10 = 8 ^ n % 10. Mà 8 là lũy thừa của 2, vì thế chữ số cuối cùng cùng của 8^n cũng sẽ tuần hoàn với chu kỳ 4.
+![image](https://github.com/user-attachments/assets/d9f1db38-7a40-400c-980a-6cd52c1b208f)
